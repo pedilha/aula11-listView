@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity4">
 
     <TextView
         android:id="@+id/cabeçalho"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="pagina 1"
+        android:text="pagina 4"
         android:textSize="20dp"
         android:gravity="center"
         android:background="#7A7A7A"
@@ -42,19 +42,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/llbtn"
         android:background="#7A7A7A"
-        android:gravity="end"
+        android:gravity="start"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
-            android:id="@+id/btn_prox"
+            android:id="@+id/btn_ant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="próximo"
+            android:text="anterior"
             android:backgroundTint="#454545"
             android:layout_marginVertical="5dp"
-            android:layout_marginEnd="20dp"
-            android:onClick="avancar"/>
+            android:layout_marginStart="20dp"
+            android:onClick="voltar"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
